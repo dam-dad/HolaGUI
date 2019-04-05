@@ -1,0 +1,47 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>dad.fx</groupId>
+	<artifactId>HolaMundo</artifactId>
+	<version>0.0.1</version>
+	
+	<name>Hola Mundo FX</name>
+	<description>Hola Mundo con JavaFX</description>
+
+	<properties>
+		<maven.compiler.target>11</maven.compiler.target>
+		<maven.compiler.source>11</maven.compiler.source>
+	</properties>
+
+	<licenses>
+		<license>
+			<name>GPL-3.0</name>
+			<comments>GNU General Public License v3.0</comments>
+			<url>LICENSE</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>fvarrui</id>
+			<name>Fran Vargas</name>
+			<url>https://github.com/fvarrui</url>
+		</developer>
+	</developers>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>11.0.1</version>
+		</dependency>
+	</dependencies>
+
+</project>
