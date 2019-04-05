@@ -32,7 +32,7 @@ public class HolaMundoSwing {
 		root.add(saludarButton);
 		
 		JFrame frame = new JFrame();
-		frame.setTitle("Hola Mundo");
+		frame.setTitle("Hola Mundo con Swing");
 		frame.setSize(320, 200);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);

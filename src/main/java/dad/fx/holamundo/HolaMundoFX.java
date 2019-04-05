@@ -37,7 +37,7 @@ public class HolaMundoFX extends Application {
 		Scene escena = new Scene(root, 320, 200);
 		
 		primaryStage.setScene(escena);
-		primaryStage.setTitle("Hola Mundo");
+		primaryStage.setTitle("Hola Mundo con JavaFX");
 		primaryStage.setResizable(false);
 		primaryStage.show();
 	}

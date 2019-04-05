@@ -32,7 +32,7 @@ public class HolaMundoAWT {
 		root.add(saludarButton);
 		
 		Frame frame = new Frame();
-		frame.setTitle("Hola Mundo");
+		frame.setTitle("Hola Mundo con AWT");
 		frame.setSize(320, 200);
 		frame.setResizable(false);
 		frame.setLocationRelativeTo(null);

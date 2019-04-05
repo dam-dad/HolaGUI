@@ -6,9 +6,9 @@ public class Main {
 
 		HolaMundoAWT.main(args);
 
-		HolaMundoFX.main(args);
-
 		HolaMundoSwing.main(args);
+
+		HolaMundoFX.main(args);
 
 	}
 
