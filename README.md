@@ -1,6 +1,6 @@
-# Hola Mundo
+# HolaGUI
 
-Comparativa de tres frameworks Java para desarrollar interfaces gráficas de usuario: AWT, Swing y JavaFX. Implementación de la misma aplicación en cada uno de los frameworks.
+Comparativa de tres frameworks Java para desarrollar interfaces gráficas de usuario (GUI): AWT, Swing y JavaFX. Implementación de la misma aplicación en cada uno de los frameworks.
 
 ## AWT
 
