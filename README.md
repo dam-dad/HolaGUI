@@ -1,6 +1,6 @@
 # Hola Mundo
 
-Comparativa de tres frameworks Java para desarrollar interfaces gr醘icas de usuario: AWT, Swing y JavaFX. Implementaci髇 de la misma aplicaci髇 en cada uno de los frameworks.
+Comparativa de tres frameworks Java para desarrollar interfaces gr谩ficas de usuario: AWT, Swing y JavaFX. Implementaci贸n de la misma aplicaci贸n en cada uno de los frameworks.
 
 ## AWT
 
@@ -14,13 +14,13 @@ Comparativa de tres frameworks Java para desarrollar interfaces gr醘icas de usua
 
 ![Hola Mundo JavaFX](docs/images/holamundo-javafx.png)
 
-## Ejecuci髇
+## Ejecuci贸n
 
-Descargar el c骴igo fuente y entrar en el directorio proyecto:
+Descargar el c贸digo fuente y entrar en el directorio proyecto:
 
 ```bash
-git clone https://github.com/dam-dad/HolaMundo.git
-cd HolaMundo
+git clone https://github.com/dam-dad/HolaGUI.git
+cd HolaGUI
 ```
 
 Construir el proyecto y crear un JAR ejecutable en el directorio `target`:
@@ -29,7 +29,7 @@ Construir el proyecto y crear un JAR ejecutable en el directorio `target`:
 mvn package
 ```
 
-Ejecutar la aplicaci髇:
+Ejecutar la aplicaci贸n:
 
 ```bash
 mvn exec:java
