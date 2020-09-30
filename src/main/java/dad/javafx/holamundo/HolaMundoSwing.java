@@ -13,7 +13,7 @@ public class HolaMundoSwing {
 	public static void main(String[] args) {
 		
 		JLabel saludarLabel = new JLabel();
-		saludarLabel.setText("Aquí saldrá el saludo");
+		saludarLabel.setText("AquÃ­ saldrÃ¡ el saludo");
 		saludarLabel.setBounds(20, 20, 120, 50);
 		
 		JButton saludarButton = new JButton();
@@ -22,7 +22,7 @@ public class HolaMundoSwing {
 		saludarButton.setToolTipText("Cuando me pulses te saludo");
 		saludarButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				saludarLabel.setText("¡¡¡Hola Mundo!!!");			
+				saludarLabel.setText("Â¡Â¡Â¡Hola Mundo!!!");			
 			}
 		});
 		

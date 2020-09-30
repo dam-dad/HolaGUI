@@ -14,7 +14,7 @@ public class HolaMundoAWT {
 	public static void main(String[] args) {
 		
 		Label saludarLabel = new Label();
-		saludarLabel.setText("Aquí saldrá el saludo");
+		saludarLabel.setText("AquÃ­ saldrÃ¡ el saludo");
 		saludarLabel.setBounds(20, 20, 120, 50);
 		
 		Button saludarButton = new Button();
@@ -22,7 +22,7 @@ public class HolaMundoAWT {
 		saludarButton.setBounds(20, 80, 120, 30);
 		saludarButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				saludarLabel.setText("¡¡¡Hola Mundo!!!");			
+				saludarLabel.setText("Â¡Â¡Â¡Hola Mundo!!!");			
 			}
 		});
 		

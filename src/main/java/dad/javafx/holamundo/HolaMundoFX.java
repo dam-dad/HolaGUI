@@ -16,7 +16,7 @@ public class HolaMundoFX extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		
 		Label saludoLabel = new Label();
-		saludoLabel.setText("Aquí saldrá el saludo");
+		saludoLabel.setText("AquÃ­ saldrÃ¡ el saludo");
 		saludoLabel.setLayoutX(20);
 		saludoLabel.setLayoutY(20);
 		
@@ -27,7 +27,7 @@ public class HolaMundoFX extends Application {
 		saludarButton.setLayoutY(80);
 		saludarButton.setOnAction(new EventHandler<ActionEvent>() {
 			public void handle(ActionEvent event) {
-				saludoLabel.setText("¡¡¡Hola Mundo!!!");
+				saludoLabel.setText("Â¡Â¡Â¡Hola Mundo!!!");
 			}
 		});
 		
